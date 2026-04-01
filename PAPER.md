@@ -263,3 +263,59 @@ With the explicit \(\theta(u)\) choice, the unified theory is now **fully specif
 - **Limits:** correct low-speed, light-speed, and superluminal branches.
 
 This completes the first **closed-form** instantiation of the unified theory.
+
+---
+
+## 40. Parameter Fixing via Benchmark Scales
+We now connect the abstract parameters to standard scales:
+
+- Set the **temperature normalization** by a reference scale \(T_*\):
+  \[
+  T_{\mathrm{eff}}(0)=T_* \Rightarrow T_0=\frac{\hbar}{k_B T_*}.
+  \]
+
+- Fix the **measurement resolution floor** by the Planck length:
+  \[
+  h_{\min} \approx \ell_P=\sqrt{\frac{\hbar G}{c^3}}.
+  \]
+
+This anchors the model to fundamental constants without changing its structure.
+
+---
+
+## 41. Summary of All Fixed Relations
+With the chosen canonical phase and modulus, the model is now fully fixed by
+\(c, \hbar, k_B, G\) and a single reference temperature \(T_*\):
+
+\[
+\mathcal{T}(u)=\frac{\hbar}{k_B T_*}|1-u^2|e^{i\theta(u)},
+\]
+\[
+T_{\mathrm{eff}}(u)=\frac{T_*}{|1-u^2|},
+\]
+\[
+\theta(u)=\begin{cases}
+\frac{\pi}{2}\,\frac{u}{1+u}, & u\le 1,\\
+\frac{\pi}{2}+\frac{\pi}{2}\,\frac{u-1}{u}, & u>1.
+\end{cases}
+\]
+
+**Spatial measurement:**
+\[
+\pi_h\in\mathbb{Q},\quad \pi_h\to\pi\ \text{as}\ h\to 0,\quad h\ge \ell_P.
+\]
+
+This is a complete closed-form parameterization of the unified model.
+
+---
+
+## 42. Final Unified Model (Concise Statement)
+The unified model consists of:
+1. **Complex time** \(\mathcal{T}(u)\) with speed-controlled phase.
+2. **Temperature** tied to the imaginary-time period by \(T_{\mathrm{eff}}(u)=T_*/|1-u^2|\).
+3. **Euclidean spatial geometry** with finite-resolution measurement \(h\ge\ell_P\).
+
+It is fully specified by \(c, \hbar, k_B, G\) and \(T_*\), and it satisfies the
+convergence requirement for \(\pi\).
+
+This concludes the construction of the unified framework in a fixed, operational form.
