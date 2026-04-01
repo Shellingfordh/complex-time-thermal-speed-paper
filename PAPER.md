@@ -137,3 +137,65 @@ We now have:
 
 This is a coherent minimal unified theory framework that can be extended to include
 interactions, curvature, and information-theoretic quantities.
+
+---
+
+## 31. Minimal Test Protocol (Conceptual)
+Even if the model is exploratory, it should expose a minimal test protocol:
+
+1. **Choose a reference system** with known thermal response and dispersion.
+2. **Define effective speed parameter** \(v\) (e.g., frame velocity or analog speed).
+3. **Measure thermal correlators** as functions of \(v\) and extract \(T_{\mathrm{eff}}(v)\).
+4. **Check for a peak-like response** near \(v\approx c\) in the model’s variable-modulus form.
+
+The protocol is abstract, but it states how the model would connect to measurable
+quantities if embedded in a concrete physical setting.
+
+---
+
+## 32. Falsifiability Conditions
+The unified model is **falsified** (internally) if any of the following fails:
+
+- The Euclidean-time periodicity \(\beta\hbar\) cannot be consistently tied to
+  \(\mathrm{Im}\,\mathcal{T}(v)\).
+- The phase function \(\theta(v)\) cannot be chosen to satisfy the required
+  boundary conditions while remaining monotone.
+- The model cannot reproduce known limits (low-speed finite temperature, high-speed
+  collapse).
+
+These are internal consistency failures; external falsifiability depends on a
+specific embedding into real systems.
+
+---
+
+## 33. Integration With the π-Measurement Model
+The complex-time framework and Euclidean π-approximation are **orthogonal but
+compatible**:
+
+- **Temporal sector:** \(\mathcal{T}(v)\) controls the imaginary-time period.
+- **Spatial sector:** finite-resolution measurement yields rational \(\pi_h\to\pi\).
+
+This clean separation avoids conflating time dynamics with spatial geometry, while
+still allowing a unified narrative.
+
+---
+
+## 34. Open Problems (Immediate)
+1. **Explicit \(\theta(v)\) selection:** identify a unique functional form by
+   matching known relativistic or thermodynamic constraints.
+2. **Operator reconstruction:** determine how standard operators transform under
+   the complex-time mapping.
+3. **Energy–temperature coupling:** derive the model’s implications for energy
+   distributions and partition functions.
+4. **Interacting fields:** move beyond free-field toy models.
+
+---
+
+## 35. Final Statement
+The unified model now consists of:
+- A complex time variable linking speed and temperature.
+- A Euclidean spatial sector with finite-resolution measurement.
+- A toy field theory scaffold for correlation analysis.
+- A set of consistency and falsifiability conditions.
+
+This constitutes a **minimal unified framework** ready for targeted refinement.
