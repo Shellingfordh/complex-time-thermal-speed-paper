@@ -120,3 +120,58 @@ These are not direct experimental claims but structural consequences of the mode
 ## 11. Conclusion
 We have consolidated a complex-time framework that unifies speed, temperature, and time by embedding both relativistic time dilation and imaginary-time thermodynamics into a single complex parameter. The core structure is a complex time whose modulus controls temperature and whose phase encodes velocity. This model offers a consistent, extendable language for further exploration of unified physical quantities.
 
+---
+
+## 12. Extending the Complexification Program: Other Basic Quantities
+To further consolidate the framework, we list **other basic physical quantities** that
+are naturally modeled with complex variables, plus **open problems** that such a move
+is intended to clarify.
+
+### 12.1 Wavefunction (Quantum State)
+**Complexification:** the wavefunction is inherently complex.  
+**Open problems:** measurement problem; physical meaning of phase; emergence of
+classicality from complex amplitudes.
+
+### 12.2 Energy (Complex Spectrum in Open Systems)
+**Complexification:** complex energy eigenvalues in non-Hermitian or open systems,
+where \\(\\mathrm{Im}\,E\\) encodes decay or growth.  
+**Open problems:** consistent probability interpretation; stability conditions; mapping
+to effective thermodynamics.
+
+### 12.3 Momentum (Complex Momentum in Dissipative Media)
+**Complexification:** complex momenta in dissipative or evanescent modes.  
+**Open problems:** unifying transport and dissipation; finite-lifetime propagation;
+non-equilibrium statistical consistency.
+
+### 12.4 Electromagnetic Field (Complex Field Amplitudes)
+**Complexification:** complex electric/magnetic fields for amplitude and phase.  
+**Open problems:** strong-field QED; nonlinear optical response; emergent behavior in
+metamaterials.
+
+### 12.5 Temperature (Complex Temperature / Lee–Yang Zeros)
+**Complexification:** analytic continuation of temperature in partition functions.  
+**Open problems:** nature of critical points; structure of phase transitions; whether
+complex temperature has operational meaning in non-equilibrium settings.
+
+### 12.6 Position / Coordinates (Complex Coordinates)
+**Complexification:** complex coordinates in scattering theory and tunneling.  
+**Open problems:** resonance structure; multi-body analytic continuation; topology of
+complex trajectories.
+
+### 12.7 Entropy (Complex or Phase-Like Entropy)
+**Complexification:** proposed complex entropy or phase-entropy analogs.  
+**Open problems:** defining an operational entropy in non-equilibrium quantum systems;
+linking information flow to complex-time dynamics.
+
+---
+
+## 13. Research Agenda (Immediate Next Steps)
+1. **Formalize** the complex-time map as an analytic continuation with explicit
+   constraints (KMS, reflection positivity).
+2. **Specify** a minimal consistent set of complexified quantities (time, energy,
+   momentum, entropy) with a shared interpretation.
+3. **Derive** concrete toy-model predictions (open quantum oscillator, dissipative
+   field, non-Hermitian two-level system).
+4. **Identify** operational proxies for the complex parts (decay rates, linewidths,
+   phase lags, or spectral asymmetries).
+
