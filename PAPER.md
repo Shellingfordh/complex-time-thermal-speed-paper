@@ -199,3 +199,67 @@ The unified model now consists of:
 - A set of consistency and falsifiability conditions.
 
 This constitutes a **minimal unified framework** ready for targeted refinement.
+
+---
+
+## 36. Canonical Phase Choice (Concrete Model)
+We now select a **definite** phase function to remove ambiguity and make the model
+fully operational. A minimal choice that satisfies the boundary conditions and is
+monotone is:
+\[
+\theta(u)=\frac{\pi}{2}\,\frac{u}{1+u},\quad u=\frac{v}{c}.
+\]
+Properties:
+- \(\theta(0)=0\).
+- \(\theta(1)=\pi/4\) (midpoint before the light-speed limit).
+- \(\theta(u)\to \pi/2\) as \(u\to\infty\).
+
+To enforce \(\theta(c)=\pi/2\), we use a **two-branch definition**:
+\[
+\theta(u)=\begin{cases}
+\frac{\pi}{2}\,\frac{u}{1+u}, & 0\le u\le 1,\\
+\frac{\pi}{2}+\frac{\pi}{2}\,\frac{u-1}{u}, & u>1.
+\end{cases}
+\]
+This yields \(\theta(1)=\pi/2\) and \(\theta(\infty)=\pi\), completing the half-rotation.
+
+---
+
+## 37. Closed-Form Example (Variable-Modulus Case)
+Using the canonical modulus and phase:
+\[
+M(u)=T_0|1-u^2|,\quad \mathcal{T}(u)=M(u)e^{i\theta(u)}.
+\]
+Then the effective temperature is
+\[
+T_{\mathrm{eff}}(u)=\frac{\hbar}{k_B T_0}\frac{1}{|1-u^2|}.
+\]
+The **speed–temperature profile** is fully explicit and exhibits:
+- divergence at \(u=1\),
+- decay \(T_{\mathrm{eff}}\sim u^{-2}\) for \(u\gg 1\),
+- finite \(T_{\mathrm{eff}}\) for \(u\ll 1\).
+
+---
+
+## 38. Example Correlator Scaling
+At fixed spatial momentum scale \(k\), the Euclidean correlator decay is controlled by
+\(\beta(v)=\hbar/(k_B T_{\mathrm{eff}}(v))\). Thus:
+\[
+G(\tau)\sim e^{-\omega\tau},\quad \omega^2=k^2+m^2.
+\]
+Replacing \(\tau\to \mathrm{Im}\,\mathcal{T}(v)\) yields a velocity-dependent decay rate:
+\[
+G \sim \exp\big(-\omega\,\mathrm{Im}\,\mathcal{T}(v)\big).
+\]
+This provides a direct operational signal for the model in a toy setting.
+
+---
+
+## 39. Consolidated Model Summary
+With the explicit \(\theta(u)\) choice, the unified theory is now **fully specified**:
+- **Complex time:** \(\mathcal{T}(u)=T_0|1-u^2|e^{i\theta(u)}\).
+- **Temperature:** \(T_{\mathrm{eff}}(u)=\hbar/(k_B T_0|1-u^2|)\).
+- **Spatial sector:** Euclidean with rational finite-resolution π estimates.
+- **Limits:** correct low-speed, light-speed, and superluminal branches.
+
+This completes the first **closed-form** instantiation of the unified theory.
