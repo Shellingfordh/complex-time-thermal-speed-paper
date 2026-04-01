@@ -175,3 +175,98 @@ linking information flow to complex-time dynamics.
 4. **Identify** operational proxies for the complex parts (decay rates, linewidths,
    phase lags, or spectral asymmetries).
 
+
+---
+
+## 14. Formal Postulates (Unified Framework)
+We state the minimal postulates to make the model explicit and testable at the level of
+internal consistency.
+
+1. **Complex time:** physical time is represented by a complex parameter
+   \(\mathcal{T}(v)=M(v)e^{i\theta(v)}\).
+2. **Euclidean thermal periodicity:** the imaginary component defines an effective
+   Euclidean period \(\beta\hbar\), with \(\beta=1/(k_B T)\).
+3. **Relativistic compatibility:** in the subluminal regime, \(\theta(0)=0\) and
+   \(\theta(c)=\pi/2\), matching the real-to-imaginary transition of analytic continuation.
+4. **Measurement neutrality:** discretization affects only measurement, not dynamics.
+5. **Local Lorentz consistency:** local physics remains Lorentz-invariant in the
+   continuum limit.
+
+---
+
+## 15. Core Equations (Minimal Model)
+We define the unified model by the coupled system
+\[
+\mathcal{T}(v)=M(v)\big(\cos\theta(v)+i\sin\theta(v)\big),
+\]
+\[
+T_{\mathrm{eff}}(v)=\frac{\hbar}{k_B M(v)},
+\]
+\[
+\theta(0)=0,\quad \theta(c)=\frac{\pi}{2},\quad \theta(\infty)=\pi\ \text{or}\ 2\pi.
+\]
+
+### Canonical choice (variable modulus)
+\[
+M(v)=T_0\left|1-\frac{v^2}{c^2}\right|,\quad
+T_{\mathrm{eff}}(v)=\frac{\hbar}{k_B T_0}\frac{1}{\left|1-\frac{v^2}{c^2}\right|}.
+\]
+This yields a temperature peak at \(v=c\) and a return to \(T\to 0\) as \(v\to\infty\).
+
+---
+
+## 16. Dimensionless Form
+Introduce \(u=v/c\) and \(\tau=\mathcal{T}/T_0\). Then
+\[
+\tau(u)=\left|1-u^2\right|e^{i\theta(u)},\quad
+\Theta(u)=\frac{T_{\mathrm{eff}}(u)}{\hbar/(k_B T_0)}=\frac{1}{|1-u^2|}.
+\]
+This isolates the universal profile independent of units.
+
+---
+
+## 17. Example Phase Functions
+To complete the model, select a monotone \(\theta(u)\) with the required boundary
+conditions. Examples:
+
+1. **Smooth step:**
+\[
+\theta(u)=\frac{\pi}{2}\frac{u^p}{u^p+1},\quad p>0.
+\]
+2. **Logistic map:**
+\[
+\theta(u)=\frac{\pi}{2}\frac{1}{1+e^{-a(u-1)}},\quad a>0.
+\]
+3. **Two-branch continuation:** define \(\theta(u)=\arccos(\sqrt{1-u^2})\) for \(u\le1\)
+   and extend analytically for \(u>1\).
+
+---
+
+## 18. Consistency Constraints
+A viable unified model must satisfy:
+- **KMS periodicity:** thermal correlators are periodic in imaginary time with period
+  \(\beta\hbar\).
+- **Analytic continuation:** real-time correlators recover the Euclidean sector under
+  Wick rotation.
+- **Causality in the continuum:** any superluminal branch is interpreted as analytic
+  continuation, not physical signal propagation.
+
+---
+
+## 19. Observational Proxies (Model-Internal)
+Even as a conceptual model, the framework implies measurable proxies if embedded into
+standard physics:
+- **Thermal response:** a peak-like response near \(v\approx c\).
+- **Phase-shift signatures:** dispersion or phase lags that track \(\theta(u)\).
+- **Resolution dependence:** rational approximations converge as sampling improves.
+
+---
+
+## 20. Next Development Steps
+1. **Pick a canonical \(\theta(u)\)** and fit it to existing relativistic/thermal
+   constraints.
+2. **Construct a toy field theory** on \(\mathcal{T}(v)\) and compute two-point
+   functions.
+3. **Define a measurement protocol** that links temperature, time phase, and
+   sampling resolution in a single experiment or simulation.
+
